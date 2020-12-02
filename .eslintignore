@@ -1,0 +1,6 @@
+!/.github
+dist
+build
+cjs
+esm
+node_modules

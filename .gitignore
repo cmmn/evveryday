@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+*/.DS_Store
+.env
+.env/*
+.env.build
+.now
+*.pem
+*.key
+.vercel
+build
+dist

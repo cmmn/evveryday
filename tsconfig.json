@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "types": ["node"],
+    "target": "es2017",                          
+    "module": "commonjs",                    
+    "lib": ["es5", "dom"],                     
+    "allowJs": true,                         
+    "strict": false,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "rootDir": ".",
+    "noEmitOnError": true,
+    "baseUrl": "./src",
+    "paths": {
+      "services/*": ["services/*"],
+      "browser/*": ["browser/*"]
+    }
+  }
+}
